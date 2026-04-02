@@ -1,0 +1,11 @@
+show=drun
+width=450
+height=400
+location=center
+allow_images=true
+image_size=24
+no_actions=true
+halign=fill
+orientation=vertical
+hide_scroll=true
+prompt=Search

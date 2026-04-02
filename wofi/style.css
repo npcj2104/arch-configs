@@ -1,0 +1,41 @@
+/* The main window */
+window {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Inter", "Sans";
+    font-size: 15px;
+    border: 1px solid #333333; /* Very subtle edge */
+}
+
+/* The search box */
+#input {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #111111;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+/* Each application entry in the list */
+#entry {
+    padding: 8px;
+    margin: 0px 10px;
+}
+
+/* Icons */
+image {
+    margin-right: 15px; /* Puts space between icon and name */
+}
+
+/* Highlighted/Selected app */
+#entry:selected {
+    background-color: #222222; /* Subtle dark grey highlight */
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Text of the selected app */
+#text:selected {
+    color: #ffffff;
+}

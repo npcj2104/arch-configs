@@ -1,0 +1,16 @@
+# Ignore everything by default
+/*
+
+# Allow the .gitignore file itself
+!.gitignore
+
+# Allow specific configuration directories
+!ghostty/
+!nvim/
+!sway/
+!waybar/
+!wofi/
+
+# Optional: If you want to ignore specific sub-folders inside allowed dirs 
+# (e.g., Neovim undo/shada files), you can add them below:
+# nvim/.repro/

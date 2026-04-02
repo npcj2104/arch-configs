@@ -1,0 +1,18 @@
+# Package manager folders (e.g., lazy.nvim, packer)
+# Only ignore these if you want to reinstall plugins on new machines
+/lua/plugins/bin/
+/plugin/
+
+# Neovim state and temporary files
+*.swp
+*.swo
+undo/
+spell/en.utf-8.add
+spell/en.utf-8.add.spl
+
+# Log files
+*.log
+
+# Shada (Shared Data) - contains command history, marks, etc.
+# Often stored in ~/.local/share/nvim, but sometimes appears here
+shada/
