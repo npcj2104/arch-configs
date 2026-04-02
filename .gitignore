@@ -11,6 +11,9 @@
 !waybar/
 !wofi/
 
+# Allow specific files
+!README.rst
+
 # Optional: If you want to ignore specific sub-folders inside allowed dirs 
 # (e.g., Neovim undo/shada files), you can add them below:
 # nvim/.repro/
