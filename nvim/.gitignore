@@ -1,18 +1,39 @@
-# Package manager folders (e.g., lazy.nvim, packer)
-# Only ignore these if you want to reinstall plugins on new machines
+# --- Plugin Management ---
+# We keep lazy-lock.json so versions stay synced across machines.
+# We ignore the actual downloaded plugin code (handled by lazy.nvim).
 /lua/plugins/bin/
 /plugin/
 
-# Neovim state and temporary files
+# --- Neovim State & Temp Files ---
 *.swp
 *.swo
+*.tmp
 undo/
 spell/en.utf-8.add
 spell/en.utf-8.add.spl
-
-# Log files
-*.log
-
-# Shada (Shared Data) - contains command history, marks, etc.
-# Often stored in ~/.local/share/nvim, but sometimes appears here
 shada/
+
+# --- LSP & Language Specific ---
+# clangd index folder (generated in C/C++ projects)
+.clangd/
+# Python cache
+__pycache__/
+*.pyc
+# Node/JS dependencies
+node_modules/
+# LaTeX auxiliary files (if VimTeX/Tectonic leaves any behind)
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db

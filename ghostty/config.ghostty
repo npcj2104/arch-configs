@@ -1,0 +1,16 @@
+# --- Font Configuration ---
+font-family = "JetBrainsMono Nerd Font"
+font-size = 12
+
+# --- Theme ---
+# Ghostty has a built-in 'Everforest Dark' theme. 
+# We'll use the 'hard' variant to match your Neovim/Waybar setup.
+theme = "Everforest Dark Hard"
+
+# --- Window Styling ---
+# This makes the terminal look modern and 'pro'
+window-decoration = false
+
+# --- Mouse & Cursor ---
+cursor-style = block
+mouse-hide-while-typing = true
