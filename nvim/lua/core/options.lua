@@ -9,7 +9,7 @@ local opt = vim.opt
 -- 2. LINE NUMBERS & NAVIGATION
 opt.number = true -- Absolute line number at cursor
 opt.relativenumber = true -- Relative numbers for easy jumping (5j, 10k)
-opt.scrolloff = 10 -- Keep 10 lines visible above/below cursor
+opt.scrolloff = 20 -- Keep 20 lines visible above/below cursor
 opt.sidescrolloff = 8 -- Keep 8 columns visible left/right of cursor
 
 -- 3. INDENTATION (Standard Defaults)
